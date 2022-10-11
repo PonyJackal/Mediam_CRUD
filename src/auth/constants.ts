@@ -1,0 +1,16 @@
+export const jwtConstants = {
+    secret: `AAABAHyIc3BdXlAPpx60N4kmu0V++hbsCqHjw8oY3GtyNUOTdsC8EsB0QXNjDXs/
+    VuECs0LoxhYjq/a8WK5SZmE9jxGqClva3shc8IUqlAQidyPukUtz/3gGvyXa7gxH
+    vXKo2X6KQW5XT5qJgC4rNoZxQIjKhfOJda8WuLUHD7pNCD3zSOqQO4FfQ8XVrc99
+    o50LwN9OZr1+NuhOth1qKkHacnc69Rta02C04uPLdUJGXsPkZyGYm52+XqSxh4YL
+    bGHtxOpmpD39OTgj/GteMV7e5atnpl62eq3q5yQG4rumxprrzvc5g9oL7tCPmCmR
+    4DvIfVs5GbjSRU1vsHW7oSXshMEAAACBAOklHxpOFXd6KtklW6GFRvOqJK+/Lymo
+    vizGPhPlA2ui8vzmOJLXj9hsdEpRfM9f3oF4HuzEel76W8/nRFqoCEYKfx8frMxE
+    A+HNYnIUgSOjM4zhqAmeP0BQ0+zfWVCpUDaHULWyJmNO97XjersOEVG7c2Nm8dlF
+    +V5wuRFrtvAtAAAAgQC59q8v3BkedcSzC8kJY6werXLkBrnHbA8T54XF8yE/aES3
+    tUVMAdUCebOJZ4m1Fno8z/57crDQHLBrHzrky/mIQzSGAcn8uflTkAW/qInajs/M
+    uSK1fHq6odnQnpCONVYMcUSObYeYq6bCFjCd1/Yv1WdBeLnmd6aF8fqZW3L+OQAA
+    AIB6wK4z+KLnuTFksC127r9OV9kwiVxPTqC0/qJTCuH7fM0GA0iyk8PJNUHAQHYt
+    JxAAusH0TygW1AthosB+07mKgx89ieecZh6b9+5FwX2bi8ourswiWvW6Dw7pOOn9
+    xUfQ70BUjORWsjm0x5DhilG2dAximJReY8Z+89pt0UX8pw==`,
+}
