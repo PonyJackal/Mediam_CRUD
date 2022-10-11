@@ -19,7 +19,22 @@ export class UsersService {
     return result;
   }
 
-  async findOne(username: string): Promise<User | undefined> {
+  async findOne(id: number): Promise<User | undefined> {
+    const result = await this.prisma.user.findUnique({ where: { id } });
+    delete result.password;
+    return result;
+  }
+
+  async findByName(username: string): Promise<User | undefined> {
     return this.prisma.user.findUnique({ where: { username } });
+  }
+
+  async update(id: number, username: string): Promise<User | undefined> {
+    const result = await this.prisma.user.update({
+      where: { id },
+      data: { username }
+    })
+    delete result.password;
+    return result;
   }
 }
