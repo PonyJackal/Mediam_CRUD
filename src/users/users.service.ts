@@ -11,10 +11,13 @@ export class UsersService {
   async create(user: CreateUserDto) {
     console.log("user", user);
     const hashedPassword = await bcrypt.hash(user.password, 10);
-    return this.prisma.user.create({ data: {
+    const result = await this.prisma.user.create({ data: {
       ...user,
       password: hashedPassword,
     } });
+
+    delete result.password;
+    return result;
   }
 
   async findOne(username: string): Promise<User | undefined> {
