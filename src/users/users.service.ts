@@ -10,10 +10,12 @@ export class UsersService {
 
   async create(user: CreateUserDto) {
     const hashedPassword = await bcrypt.hash(user.password, 10);
-    const result = await this.prisma.user.create({ data: {
-      ...user,
-      password: hashedPassword,
-    } });
+    const result = await this.prisma.user.create({
+      data: {
+        ...user,
+        password: hashedPassword,
+      },
+    });
 
     delete result.password;
     return result;
@@ -32,8 +34,8 @@ export class UsersService {
   async update(id: number, username: string): Promise<User | undefined> {
     const result = await this.prisma.user.update({
       where: { id },
-      data: { username }
-    })
+      data: { username },
+    });
     delete result.password;
     return result;
   }

@@ -1,5 +1,5 @@
 export const jwtConstants = {
-    secret: `AAABAHyIc3BdXlAPpx60N4kmu0V++hbsCqHjw8oY3GtyNUOTdsC8EsB0QXNjDXs/
+  secret: `AAABAHyIc3BdXlAPpx60N4kmu0V++hbsCqHjw8oY3GtyNUOTdsC8EsB0QXNjDXs/
     VuECs0LoxhYjq/a8WK5SZmE9jxGqClva3shc8IUqlAQidyPukUtz/3gGvyXa7gxH
     vXKo2X6KQW5XT5qJgC4rNoZxQIjKhfOJda8WuLUHD7pNCD3zSOqQO4FfQ8XVrc99
     o50LwN9OZr1+NuhOth1qKkHacnc69Rta02C04uPLdUJGXsPkZyGYm52+XqSxh4YL
@@ -13,4 +13,4 @@ export const jwtConstants = {
     AIB6wK4z+KLnuTFksC127r9OV9kwiVxPTqC0/qJTCuH7fM0GA0iyk8PJNUHAQHYt
     JxAAusH0TygW1AthosB+07mKgx89ieecZh6b9+5FwX2bi8ourswiWvW6Dw7pOOn9
     xUfQ70BUjORWsjm0x5DhilG2dAximJReY8Z+89pt0UX8pw==`,
-}
+};
